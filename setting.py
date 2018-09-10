@@ -1,0 +1,1 @@
+DS_dir = '/home/donald/datasets/RSNA_DS'
