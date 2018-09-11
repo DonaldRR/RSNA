@@ -17,3 +17,6 @@ TEST_SAMPLES = 800
 USE_ATTN = False
 
 image_bbox_df = pd.read_csv(os.path.join(DS_dir, ''))
+image_bbox_df['path'] = image_bbox_df['path'].map(lambda x: x.replace('input', ''))
+print(image_bbox_df.shape[0], 'images')
+image_bbox_df.sample(3)
