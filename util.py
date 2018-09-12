@@ -1,11 +1,4 @@
-import matplotlib
-matplotlib.use('TkAgg')
-import matplotlib.pyplot as plt
-import glob, pylab, pandas as pd
-import pydicom, numpy as np
-from os.path import join
 from setting import *
-from os.path import join
 
 def parse_data(df):
 
